@@ -48,6 +48,6 @@ result = get_result(user_play, computer_play)
 if result is None:
     print "It's a tie"
 elif result:
-    print "You win!"
+    print "You win! Congrats!"
 else:
     print "I win. You lose"
