@@ -36,7 +36,6 @@ def get_random():
     Rolls a 3-way dice to pick a random play.
     """
     return random.choice(['rock', 'paper', 'scissors'])
-# changes each time
 
 print "Let's play rock-paper-scissors!"
 
@@ -49,6 +48,6 @@ result = get_result(user_play, computer_play)
 if result is None:
     print "It's a tie"
 elif result:
-    print "You win!"
+    print "You win! Congrats!"
 else:
     print "I win."
