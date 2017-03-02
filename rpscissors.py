@@ -19,7 +19,7 @@ matchups = {
     ('paper', 'scissors'): False,
     ('scissors', 'paper'): True,
 }
-
+#unicorns eat flowers
 def get_result(play1, play2):
     """
     Return True if play1 beats play2, or False if not. Returns None if the
